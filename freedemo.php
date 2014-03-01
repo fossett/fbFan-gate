@@ -1,8 +1,8 @@
 <?php
 require 'facebook.php';
 
-$app_id = "1456430557902623";
-$app_secret = "e9ee887a87be1ee3371b8e10f16ecc0a";
+$app_id = "YOUR_APP_ID";
+$app_secret = "YOUR_APP_SECRET";
 $facebook = new Facebook(array(
 'appId' => $app_id,
 'secret' => $app_secret,
